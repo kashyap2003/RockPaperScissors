@@ -1,0 +1,34 @@
+/* ! Challange 3 : Rock, Paper and Scissors ! */
+
+/* TODO: See the line no. 1 In this container the elements are same so we just combime both container */
+
+.container-3
+{
+    border: 1px solid red;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto; /** It just centralized things **/ 
+} 
+
+
+/* TODO: See the line no. 9 In this container the elements are same so we just combime both container */
+
+.flex-box-rps
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /** This will hwlp to centralize the next line element in challange **/
+    border: 1px solid blue; 
+    padding: 10px;
+}
+ 
+
+.flex-box-rps img:hover
+{
+    box-shadow: 0px 10px 50px rgb(0, 0, 255);
+}
+
+.restart
+{
+    padding: 10px;
+}
